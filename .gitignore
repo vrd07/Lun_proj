@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Personal content (keep private - add your actual photos here)
+public/images/level1/*
+public/images/level2/*
+public/images/level3/*
+public/images/level5/*
+public/images/level6/*
+public/audio/*
+!public/images/level1/.gitkeep
+!public/images/level2/.gitkeep
+!public/images/level3/.gitkeep
+!public/images/level5/.gitkeep
+!public/images/level6/.gitkeep
+!public/audio/.gitkeep
+.vercel
