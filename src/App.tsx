@@ -11,7 +11,7 @@ function App() {
   const musicVolume = useGameStore((state) => state.musicVolume);
 
   return (
-    <Router>
+    <Router basename="/Lun_proj">
       <div className="min-h-screen relative">
         <MusicPlayer volume={musicVolume} enabled={musicEnabled} />
         <Routes>
@@ -26,4 +26,3 @@ function App() {
 }
 
 export default App;
-
